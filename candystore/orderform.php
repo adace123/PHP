@@ -13,7 +13,7 @@
 ::-webkit-input-placeholder {color:black;}
 nav{letter-spacing:8px;}
 body{background-repeat:no-repeat;background-size:cover;background-image:url('../candystore/candy_images/candies.jpg');background-color:#d1c4e9}
-button{background-image:url('../candystore/candy_images/jellies.jpg');background-size:cover;font-weight:bold;}
+button{background-image:url('candyimages/jellies.jpg');background-size:cover;font-weight:bold;}
 </style>
 <body>
 <?php
@@ -31,7 +31,7 @@ session_start();
           <div class="col s4">
               <div class="card hoverable">
                     <div class="card-image">
-                        <img src="../candystore/candy_images/chocolates.jpg">
+                        <img src="candyimages/chocolates.jpg">
                     </div>
                     <div style="background-color:#f48fb1" class="card-content">
                         <span><h6>Assorted chocolates <strong style="float:right;border:2px solid white;border-radius:25px;background-color:white">$19.99 each</strong></h6></span>
@@ -44,7 +44,7 @@ session_start();
             <div class="col s4">
               <div class="card hoverable">
                     <div class="card-image">
-                        <img src="../candystore/candy_images/cookies.jpg">
+                        <img src="candyimages/cookies.jpg">
                     </div>
                     <div style="background-color:#ce93d8" class="card-content">
                         <span><h6>Colorful cookies <strong style="float:right;border:2px solid white;border-radius:25px;background-color:white">$9.99 each</strong></h6></span>
@@ -56,7 +56,7 @@ session_start();
           <div class="col s4">
               <div class="card hoverable">
                     <div class="card-image">
-                        <img src="../candystore/candy_images/corn.jpg">
+                        <img src="candyimages/corn.jpg">
                     </div>
                     <div style="background-color:#ffab91 " class="card-content">
                         <span><h6>Candy corn <strong style="float:right;border:2px solid white;border-radius:25px;background-color:white">$7.99 each</strong></h6></span>
@@ -70,7 +70,7 @@ session_start();
                <div class="col s4">
               <div class="card hoverable">
                     <div class="card-image">
-                        <img src="../candystore/candy_images/crunch.jpg">
+                        <img src="candyimages/crunch.jpg">
                     </div>
                     <div style="background-color:#bcaaa4" class="card-content">
                         <span><h6>Chocolate crunch <strong style="float:right;border:2px solid white;border-radius:25px;background-color:white">$11.99 each</strong></h6></span>
@@ -82,7 +82,7 @@ session_start();
           <div class="col s4">
               <div class="card hoverable">
                     <div class="card-image">
-                        <img src="../candystore/candy_images/gummies.jpg">
+                        <img src="candyimages/gummies.jpg">
                     </div>
                     <div style="background-color:#64ffda" class="card-content">
                         <span><h6>Gummy bears <strong style="float:right;border:2px solid white;border-radius:25px;background-color:white">$6.99 each</strong></h6></span>
@@ -94,7 +94,7 @@ session_start();
           <div class="col s4">
               <div class="card hoverable">
                     <div class="card-image">
-                        <img src="../candystore/candy_images/suckers.jpg">
+                        <img src="candyimages/suckers.jpg">
                     </div>
                     <div style="background-color:#fff9c4" class="card-content">
                         <span><h6>Candy suckers <strong style="float:right;border:2px solid white;border-radius:25px;background-color:white">$8.99 each</strong></h6></span>
