@@ -1,0 +1,64 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  background-color: #212121;
+  font-family: Roboto;
+}
+
+button{
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  color: #e0e0e0;
+  background-color: #424242;
+  border: 1px solid black;
+  outline: none;
+  font-size: 18px;
+  border-radius: 3px;
+  font-family: Roboto;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:not(.numbers){
+  background-color: #212121;
+}
+
+.row{
+   display:table;
+}
+
+#zero {
+  width:120px;
+}
+
+#equals{
+  background-color: #1976d2;
+}
+
+.screen{
+  background-color:white;
+  display:table;
+  width: 240px;
+  margin-bottom: 2px;
+  border-radius: 3px;
+  text-align: right;
+  font-size:100%;
+}
+
+.screen h1{
+  margin-right: 10px;
+}
+
+.calculator{
+  background-color:black;
+  display:table;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  transform: translateY(50%);
+}
