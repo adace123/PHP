@@ -36,6 +36,7 @@ class Calculator{
 
 if(isset($_REQUEST['results'])){
    $expression = explode(" ",$_REQUEST['results']);
+   set_error_handler(function(){echo "Error";},E_ALL & ~E_NOTICE & ~E_USER_NOTICE);
    $calc = new Calculator($expression[0],$expression[2]);
   
   if(count($expression) == 3)
@@ -54,11 +55,7 @@ if(isset($_REQUEST['results'])){
         break;
    }   
  else {
-     $str = "";
-     foreach($expression as $field => $value){
-         $str .= $value;
-     }
-     echo eval("return $str;");
+     echo eval("return".$_REQUEST['results'].";");
  }
 }
 ?>
