@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>PHP Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="calc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+<div class="calculator">
+  <div class="screen">
+    <h1 id="results">0</h1>
+  </div>
+    <div class="row">
+        <button id="backspace"><i class="typcn typcn-backspace-outline"></i></button>
+        <button id="clear">AC</button>
+        <button id="sign">+/-</button>
+        <button class="operator"><i class="typcn typcn-divide"></i></button>
+      </div>
+      <div class="row">
+        <button class="numbers">7</button>
+        <button class="numbers">8</button>
+        <button class="numbers">9</button>
+        <button class="operator">*</button>
+      </div>
+      <div class="row">
+        <button class="numbers">4</button>
+        <button class="numbers">5</button>
+        <button class="numbers">6</button>
+        <button class="operator">+</button>
+      </div>
+      <div class="row">
+        <button class="numbers">1</button>
+        <button class="numbers">2</button>
+        <button class="numbers">3</button>
+        <button class="operator">-</button>
+      </div>
+      <div class="row">
+        <button id="zero" class="numbers">0</button>
+        <button class="numbers">.</button>
+        <form style="display:none" method="post" action="results.php">
+            <input type="hidden" name="results" id="calculateResults">
+        </form>
+        <button id="equals">=</button>       
+      </div>
+    </div>
+</div>     
+</body>
+</html>
