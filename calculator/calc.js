@@ -1,4 +1,4 @@
-$(document).ready(() => {
+  $(document).ready(() => {
     $('.calculator').draggable();
     let neg = false;
 
@@ -8,9 +8,7 @@ $(document).ready(() => {
     });
 
     $('.operator').click((e) => {
-            if($(e.target).is('button'))
-            $('#results').text($('#results').text() + " " + e.target.innerHTML + " ");
-            else $('#results').text($('#results').text() + " " + "/" + " ");    
+            $('#results').text($('#results').text() + " " + e.target.innerHTML + " ");   
     });
 
     $('#sign').click(() => { 
