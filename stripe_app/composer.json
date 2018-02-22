@@ -1,0 +1,7 @@
+{
+    "require": {
+        "stripe/stripe-php": "^6.2",
+        "vlucas/phpdotenv": "^2.4",
+        "mongodb/mongodb": "^1.3"
+    }
+}
